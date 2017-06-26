@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="12dp"
+        android:id="@+id/tag_name"
+        android:textSize="10dp"
+        android:textColor="#000000"
+        android:text="tags" />
+
+    <View
+        android:layout_width="2dp"
+        android:layout_height="12dp"
+        android:background="#FF909090" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="12dp"
+        android:textSize="10dp"
+        android:textColor="#000000"
+        android:id="@+id/tag_conf"
+        android:text="conf" />
+
+
+</LinearLayout>
